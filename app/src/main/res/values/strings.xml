@@ -1,4 +1,5 @@
 <resources>
-<string name="app_name">Codestellation</string>
-    <string name=""> </string>
+    <string name="app_name">Keep Breathing</string>
+    <string name="tap_to_continue">Tap to Continue</string>
+    <string name="btn_continue">Continue</string>
 </resources>
