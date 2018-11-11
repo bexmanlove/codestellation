@@ -8,6 +8,7 @@ Current statistics say that over 44 million Americans deal with some sort of men
 In the future, we hope to add features such as an animated guide for breathing and randomly generated validation statements for the user. 
 
 Our current iteration is as follows:
+
 ![Keep Breathing Landing Page](https://github.com/smanlove29/codestellation/keepbreathingpg1.png "Keep Breathing Landing Page")
 ![Keep Breathing Restart or Call Hotline Page](https://github.com/smanlove29/codestellation/keepbreathingpg2.png "Keep Breathing Final Page")
 
