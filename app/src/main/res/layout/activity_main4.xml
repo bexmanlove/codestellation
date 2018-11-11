@@ -1,58 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main4Activity">
-
-    <TextView
-        android:id="@+id/youAreValid"
-        android:layout_width="283dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="90dp"
-        android:layout_marginLeft="90dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="90dp"
-        android:layout_marginRight="90dp"
-        android:layout_marginBottom="233dp"
-        android:text="@string/you_are_valid"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnRestart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginBottom="203dp"
-        android:text="@string/restart"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnHelpline"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/youAreValid" />
+        android:layout_width="236dp"
+        android:layout_height="111dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:text="@string/restart_breathing"/>
 
     <Button
-        android:id="@+id/btnHelpline"
+        android:id="@+id/btnHotline"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="232dp"
+        android:layout_height="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:drawableLeft="@drawable/icon_phone"
+        android:keepScreenOn="true"
+        android:onClick="@Main4Activity/BtnSetEmergency_onClick"
+        android:text="@string/call_the_helpline"
+        android:visibility="visible"
+        android:drawableStart="@drawable/icon_phone" />
+
+    <TextView
+        android:id="@+id/you_are_valid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="203dp"
-        android:text="@string/call_the_helpline"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnRestart"
-        app:layout_constraintTop_toBottomOf="@+id/youAreValid" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:text="@string/you_are_valid"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+</RelativeLayout>

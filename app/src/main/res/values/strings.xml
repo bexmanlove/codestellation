@@ -5,6 +5,7 @@
     <string name="timer_start">Start</string>
     <string name="you_are_valid">You are valid. You are loved. I believe in you.</string>
     <string name="restart">Restart</string>
-    <string name="call_the_helpline">Call the Helpline</string>
+    <string name="call_the_helpline">Call the National Anxiety Helpline</string>
     <string name="logo">logo</string>
+    <string name="restart_breathing">Restart Breathing</string>
 </resources>
