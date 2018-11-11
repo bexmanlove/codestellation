@@ -9,8 +9,8 @@ In the future, we hope to add features such as an animated guide for breathing a
 
 Our current iteration is as follows:
 
-![Keep Breathing Landing Page](https://github.com/smanlove29/codestellation/keepbreathingpg1.png "Keep Breathing Landing Page")
-![Keep Breathing Restart or Call Hotline Page](https://github.com/smanlove29/codestellation/keepbreathingpg2.png "Keep Breathing Final Page")
+![Keep Breathing Landing Page](https://github.com/smanlove29/codestellation/blob/master/keepbreathingpg1.png "Keep Breathing Landing Page")
+![Keep Breathing Restart or Call Hotline Page](https://github.com/smanlove29/codestellation/blob/master/keepbreathingpg2.png "Keep Breathing Final Page")
 
 ___
 
