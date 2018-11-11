@@ -34,7 +34,7 @@ public class Main4Activity extends AppCompatActivity {
         });
     }
     public void BtnSetEmergency_onClick(View view) {
-        String number = "8888269438";
+        String number = "8009506264";
         Intent intent = new Intent(Intent.ACTION_CALL);
         intent.setData(Uri.parse("tel:" + number));
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
